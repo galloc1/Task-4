@@ -50,3 +50,6 @@ C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills 
 C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\School Manager.dll
 C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\refint\School Manager.dll
 C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\School Manager.pdb
+C:\Users\gallo\Documents\Task-4\School Manager\obj\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\Documents\Task-4\School Manager\obj\Debug\net6.0-windows\refint\School Manager.dll
+C:\Users\gallo\Documents\Task-4\School Manager\obj\Debug\net6.0-windows\School Manager.pdb
