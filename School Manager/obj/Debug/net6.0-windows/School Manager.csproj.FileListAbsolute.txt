@@ -1,0 +1,52 @@
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.AssemblyReference.cache
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Start_Page.resources
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Teacher_Login.resources
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.GenerateResource.cache
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.AssemblyInfoInputs.cache
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.AssemblyInfo.cs
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.CoreCompileInputs.cache
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.exe
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.deps.json
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.runtimeconfig.json
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.pdb
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\refint\School Manager.dll
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.pdb
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.genruntimeconfig.cache
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\ref\School Manager.dll
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Teacher_Home_Page.resources
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Class_Editor.resources
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\credentials.txt
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\students.txt
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Student_Editor.resources
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\classes.txt
+C:\Users\gallo\OneDrive\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Roll_Call.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.exe
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\classes.txt
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\credentials.txt
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\students.txt
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.deps.json
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.runtimeconfig.json
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\bin\Debug\net6.0-windows\School Manager.pdb
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.AssemblyReference.cache
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Class_Editor.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Roll_Call.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Start_Page.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Teacher_Home_Page.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School_Manager.Teacher_Login.resources
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.GenerateResource.cache
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.AssemblyInfoInputs.cache
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.AssemblyInfo.cs
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.csproj.CoreCompileInputs.cache
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\refint\School Manager.dll
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.pdb
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\School Manager.genruntimeconfig.cache
+C:\Users\gallo\Documents\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Galloni Roll Call\School Manager\obj\Debug\net6.0-windows\ref\School Manager.dll
+C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\School Manager.dll
+C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\refint\School Manager.dll
+C:\Users\gallo\Desktop\School\2023\Digital Technologies\TASK 3 Project Skills - Advanced Programming\Roll Call Application\School Manager\obj\Debug\net6.0-windows\School Manager.pdb
