@@ -47,3 +47,5 @@ C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\School
 C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\School Manager.genruntimeconfig.cache
 C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\ref\School Manager.dll
 C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\School_Manager.Admin_Login.resources
+C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\School_Manager.Admin_Home_Page.resources
+C:\Users\gallo\Documents\Task-4\School Manager\obj\Release\net6.0-windows\School_Manager.Student_Editor.resources

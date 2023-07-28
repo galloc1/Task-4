@@ -28,69 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            button1 = new Button();
+            label2 = new Label();
+            button3 = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(121, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome to SMS";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(121, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(199, 32);
+            label1.TabIndex = 0;
+            label1.Text = "Welcome to SMS";
+            label1.Click += label1_Click;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(146, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 32);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Log Out";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(146, 167);
+            button1.Name = "button1";
+            button1.Size = new Size(151, 32);
+            button1.TabIndex = 1;
+            button1.Text = "Log Out";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(121, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Take the roll using the button below";
+            label2.AutoSize = true;
+            label2.Location = new Point(121, 52);
+            label2.Name = "label2";
+            label2.Size = new Size(196, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Take the roll using the button below";
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(146, 104);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(151, 33);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Take Roll";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            button3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.Location = new Point(146, 104);
+            button3.Name = "button3";
+            button3.Size = new Size(151, 33);
+            button3.TabIndex = 3;
+            button3.Text = "Take Roll";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Teacher_Home_Page
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(455, 231);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Name = "Teacher_Home_Page";
-            this.Text = "Teacher Home Page";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Teacher_Home_Page_FormClosing);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(455, 231);
+            Controls.Add(label2);
+            Controls.Add(button3);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Name = "Teacher_Home_Page";
+            Text = "Teacher Home Page";
+            FormClosing += Teacher_Home_Page_FormClosing;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

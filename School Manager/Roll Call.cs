@@ -87,7 +87,7 @@ namespace School_Manager
 
         private void button5_Click(object sender, EventArgs e)
         {
-            new FormFns().SwitchForms(this, startPage.teacherHomePage);
+            FormFns.SwitchForms(this, startPage.teacherHomePage);
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)

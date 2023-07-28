@@ -12,6 +12,9 @@ namespace School_Manager
         public Teacher_Home_Page teacherHomePage;
         public Roll_Call rollCall;
         public Admin_Login adminLogin;
+        public Admin_Home_Page adminHomePage;
+        public Student_Editor studentEditor;
+        public Class_Editor classEditor;
 
         //Objects
         public List<Teacher> teachers;
@@ -26,7 +29,7 @@ namespace School_Manager
         //Opens teacher login form and closes this form
         private void button1_Click(object sender, EventArgs e)
         {
-            new FormFns().SwitchForms(this, teacherLogin);
+            FormFns.SwitchForms(this, teacherLogin);
         }
 
         private void Start_Page_Load(object sender, EventArgs e)
@@ -37,6 +40,9 @@ namespace School_Manager
             teacherHomePage = new Teacher_Home_Page(this);
             rollCall = new Roll_Call(this);
             adminLogin = new Admin_Login(this);
+            adminHomePage = new Admin_Home_Page(this);
+            studentEditor = new Student_Editor(this);
+            classEditor = new Class_Editor(this);
 
             //Assigning lists to store objects, i.e. students, classes, etc
             teachers = new List<Teacher>();
@@ -113,7 +119,7 @@ namespace School_Manager
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new FormFns().SwitchForms(this, adminLogin);
+            FormFns.SwitchForms(this, adminLogin);
         }
     }
 }

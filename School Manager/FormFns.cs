@@ -3,9 +3,9 @@ using System.ComponentModel;
 
 namespace School_Manager
 {
-    public class FormFns
+    public static class FormFns
     {
-        public void SwitchForms(Form thisForm, Form targetForm)
+        public static void SwitchForms(Form thisForm, Form targetForm)
         {
             targetForm.Show();
             thisForm.Hide();

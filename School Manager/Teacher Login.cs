@@ -16,7 +16,7 @@ namespace School_Manager
         {
             textBox1.Text = "";
             textBox2.Text = "";
-            new FormFns().SwitchForms(this, startPage);
+            FormFns.SwitchForms(this, startPage);
         }
 
         //Opens the teacher home page and closes this form if entered credentials are correct
@@ -31,7 +31,7 @@ namespace School_Manager
                     valid = true;
                     textBox1.Text = "";
                     textBox2.Text = "";
-                    new FormFns().SwitchForms(this, startPage.teacherHomePage);
+                    FormFns.SwitchForms(this, startPage.teacherHomePage);
                 }
             }
             if (!valid)

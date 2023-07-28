@@ -20,7 +20,7 @@ namespace School_Manager
             //If yes, open the start page and close this form
             if (logOut == DialogResult.Yes)
             {
-                new FormFns().SwitchForms(this, startPage);
+                FormFns.SwitchForms(this, startPage);
             }
         }
 
@@ -42,7 +42,7 @@ namespace School_Manager
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new FormFns().SwitchForms(this, startPage.rollCall);
+            FormFns.SwitchForms(this, startPage.rollCall);
         }
     }
 }
