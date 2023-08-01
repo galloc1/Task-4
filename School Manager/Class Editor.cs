@@ -14,7 +14,7 @@ namespace School_Manager
         //Opens teacher home page and closes this form
         private void button1_Click(object sender, EventArgs e)
         {
-            FormFns.SwitchForms(this, startPage.teacherHomePage);
+            FormFns.SwitchForms(this, startPage.adminHomePage);
         }
 
         //Opens roll call for selected class
