@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Admin Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Class Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Roll Call.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Start Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Teacher Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Teacher Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
