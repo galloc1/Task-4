@@ -6,8 +6,13 @@ namespace School_Manager
 {
     public partial class Start_Page : Form
     {
+        //Objects
+        public List<Teacher> teachers;
+        public BindingList<Student> students = new BindingList<Student>();
+        public BindingList<Class> classes;
+
         //Forms
-        public Start_Page startPage;
+        public static Start_Page startPage;
         public Teacher_Login teacherLogin;
         public Teacher_Home_Page teacherHomePage;
         public Roll_Call rollCall;
@@ -15,11 +20,6 @@ namespace School_Manager
         public Admin_Home_Page adminHomePage;
         public Student_Editor studentEditor;
         public Class_Editor classEditor;
-
-        //Objects
-        public List<Teacher> teachers;
-        public BindingList<Student> students;
-        public BindingList<Class> classes;
 
         public Start_Page()
         {
@@ -46,7 +46,6 @@ namespace School_Manager
 
             //Assigning lists to store objects, i.e. students, classes, etc
             teachers = new List<Teacher>();
-            students = new BindingList<Student>();
             classes = new BindingList<Class>();
 
             //Reading from file to reference teachers information
@@ -61,7 +60,7 @@ namespace School_Manager
             StreamReader studentsStream = new StreamReader("students.txt");
             while (!studentsStream.EndOfStream)
             {
-                Student newStudentTemp = new Student(studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), DateTime.ParseExact(studentsStream.ReadLine(), "MM/dd/yyyy", null), studentsStream.ReadLine(), studentsStream.ReadLine(), "");
+                Student newStudentTemp = new Student(studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), studentsStream.ReadLine(), "");
                 students.Add(newStudentTemp);
             }
 
@@ -88,7 +87,10 @@ namespace School_Manager
                     }
                     else if (nextChar.Equals('-'))
                     {
-                        newClassStudentsTemp.Add(students[Convert.ToInt32(nextStudent) - 1]);
+                        if (nextStudent != "")
+                        {
+                            newClassStudentsTemp.Add(students[Convert.ToInt32(nextStudent) - 1]);
+                        }
                         classesStream.ReadLine();
                         reading = false;
                     }
@@ -104,6 +106,8 @@ namespace School_Manager
             //Populates listboxes
             rollCall.listBox2.DataSource = classes;
             rollCall.listBox2.DisplayMember = "name";
+            classEditor.listBox1.DataSource = classes;
+            classEditor.listBox1.DisplayMember = "name";
         }
 
         //Closes the application

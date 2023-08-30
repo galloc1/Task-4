@@ -28,137 +28,143 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.classBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.classBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            button1 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            listBox1 = new ListBox();
+            classBindingSource1 = new BindingSource(components);
+            classBindingSource = new BindingSource(components);
+            studentsBindingSource = new BindingSource(components);
+            studentsBindingSource1 = new BindingSource(components);
+            label3 = new Label();
+            button3 = new Button();
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)classBindingSource1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)classBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)studentsBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)studentsBindingSource1).BeginInit();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(45, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 33);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(326, 333);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 33);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Log Out";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(188, 335);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(102, 32);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Take Roll";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(45, 334);
+            button1.Name = "button1";
+            button1.Size = new Size(102, 33);
+            button1.TabIndex = 0;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(189, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Class View";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(189, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(101, 25);
+            label1.TabIndex = 6;
+            label1.Text = "Class View";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(201, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 21);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Class List";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(201, 79);
+            label2.Name = "label2";
+            label2.Size = new Size(74, 21);
+            label2.TabIndex = 7;
+            label2.Text = "Class List";
             // 
             // listBox1
             // 
-            this.listBox1.DisplayMember = "name";
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(26, 103);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(420, 214);
-            this.listBox1.TabIndex = 8;
-            this.listBox1.ValueMember = "students";
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            listBox1.DataSource = classBindingSource1;
+            listBox1.DisplayMember = "name";
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(26, 103);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(420, 214);
+            listBox1.TabIndex = 8;
+            listBox1.ValueMember = "students";
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            // 
+            // classBindingSource1
+            // 
+            classBindingSource1.DataSource = typeof(Class);
             // 
             // classBindingSource
             // 
-            this.classBindingSource.DataSource = typeof(School_Manager.Class);
+            classBindingSource.DataSource = typeof(Class);
             // 
             // studentsBindingSource
             // 
-            this.studentsBindingSource.DataMember = "students";
-            this.studentsBindingSource.DataSource = this.classBindingSource;
+            studentsBindingSource.DataMember = "students";
+            studentsBindingSource.DataSource = classBindingSource;
             // 
             // studentsBindingSource1
             // 
-            this.studentsBindingSource1.DataMember = "students";
-            this.studentsBindingSource1.DataSource = this.classBindingSource;
+            studentsBindingSource1.DataMember = "students";
+            studentsBindingSource1.DataSource = classBindingSource;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(54, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(378, 15);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Choose a class from the list below and hit \'Take Roll\' to begin a roll call";
+            label3.AutoSize = true;
+            label3.Location = new Point(99, 49);
+            label3.Name = "label3";
+            label3.Size = new Size(275, 15);
+            label3.TabIndex = 9;
+            label3.Text = "Choose a class from the list below to edit its details";
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.Location = new Point(186, 334);
+            button3.Name = "button3";
+            button3.Size = new Size(102, 33);
+            button3.TabIndex = 10;
+            button3.Text = "Edit Class";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(323, 334);
+            button2.Name = "button2";
+            button2.Size = new Size(106, 33);
+            button2.TabIndex = 11;
+            button2.Text = "New Class";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
             // 
             // Class_Editor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(479, 385);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Class_Editor";
-            this.Text = "Class Editor";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Class_Editor_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.classBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(479, 385);
+            Controls.Add(button2);
+            Controls.Add(button3);
+            Controls.Add(label3);
+            Controls.Add(listBox1);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            Name = "Class_Editor";
+            Text = "Class Editor";
+            FormClosing += Class_Editor_FormClosing;
+            ((System.ComponentModel.ISupportInitialize)classBindingSource1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)classBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)studentsBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)studentsBindingSource1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
-        private Button button2;
-        private Button button6;
         private Label label1;
         private Label label2;
         public ListBox listBox1;
@@ -166,5 +172,8 @@
         private BindingSource studentsBindingSource;
         private BindingSource studentsBindingSource1;
         private Label label3;
+        private Button button3;
+        private BindingSource classBindingSource1;
+        private Button button2;
     }
 }

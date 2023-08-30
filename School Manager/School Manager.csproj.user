@@ -10,6 +10,12 @@
     <Compile Update="Class Editor.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EditClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Roll Call.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -20,12 +20,14 @@ namespace School_Manager
         //Opens roll call for selected class
         private void button6_Click(object sender, EventArgs e)
         {
+            /*
             startPage.rollCall.students = startPage.classes.ElementAt(listBox1.SelectedIndex).students;
             startPage.rollCall.listBox1.DataSource = startPage.classes.ElementAt(listBox1.SelectedIndex).students;
 
             startPage.rollCall.listBox1.DisplayMember = "statusName";
 
             FormFns.SwitchForms(this, startPage.rollCall);
+            */
         }
 
         //Closes the application
@@ -36,7 +38,26 @@ namespace School_Manager
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditClass editClass = new EditClass(this);
+            editClass.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            New_Class newClass = new New_Class(this);
+            newClass.Show();
         }
     }
 }
