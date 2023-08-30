@@ -22,6 +22,7 @@ namespace School_Manager
             InitializeComponent();
             startPage = startPage_;
 
+            //Reading from "students.txt" to extract and store student info
             StreamReader sr = new StreamReader(filePath);
             for (int i = 1; i < 31; i++)
             {
@@ -52,8 +53,10 @@ namespace School_Manager
             FormFns.SwitchForms(this, startPage.adminHomePage);
         }
 
+        //Save Button
         private void button2_Click(object sender, EventArgs e)
         {
+            //Changes the student's information based on the input fields
             Start_Page.startPage.students[listBox1.SelectedIndex].firstName = textBox1.Text;
             Start_Page.startPage.students[listBox1.SelectedIndex].lastName = textBox2.Text;
             Start_Page.startPage.students[listBox1.SelectedIndex].middleName = textBox3.Text;
@@ -64,6 +67,7 @@ namespace School_Manager
             Start_Page.startPage.students[listBox1.SelectedIndex].fullName = Start_Page.startPage.students[listBox1.SelectedIndex].firstName + " " + Start_Page.startPage.students[listBox1.SelectedIndex].lastName;
             Start_Page.startPage.students[listBox1.SelectedIndex].statusName = Start_Page.startPage.students[listBox1.SelectedIndex].fullName + Start_Page.startPage.students[listBox1.SelectedIndex].status;
 
+            //Writes the student's information to students.txt
             FileStream fcreate = File.Open(filePath, FileMode.Create);
             StreamWriter stream = new StreamWriter(fcreate);
             for(int i = 0; i< Start_Page.startPage.students.Count; i++)
@@ -85,6 +89,7 @@ namespace School_Manager
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //Displays the info of the currently selected student in each of the input fields
             textBox1.Text = Start_Page.startPage.students[listBox1.SelectedIndex].firstName;
             textBox2.Text = Start_Page.startPage.students[listBox1.SelectedIndex].lastName;
             textBox3.Text = Start_Page.startPage.students[listBox1.SelectedIndex].middleName;
